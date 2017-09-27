@@ -11,5 +11,12 @@
  
  - Clone the repository
  
-
+ ```sh
+    https://github.com/marychellecarreon/JS_dice-game.git
+ ```
  
+ - Open the terminal and run 
+
+  ```sh
+    $ node dice.js
+ ```
