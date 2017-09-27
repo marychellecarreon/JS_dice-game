@@ -5,22 +5,22 @@ var wins = 0;
 
 function diceRoll()  {
     var dice = Math.random();
-    if (dice <= 1) {
+    if (dice <= 0.17) {
         dice = 1;
     }
-    else if (dice <= 2) {
+    else if (dice <= 0.33) {
         dice = 2;
     }
-    else if (dice <= 3) {
+    else if (dice <= 0.51) {
         dice = 3;
     }
-    else if (dice <= 4) {
+    else if (dice <= 0.68) {
         dice = 4;
     }
-    else if (dice <= 5) {
+    else if (dice <= 0.85) {
         dice = 5;
     }
-    else if (dice <= 6) {
+    else if (dice <= 1) {
         dice = 6;
     }
     return dice;
